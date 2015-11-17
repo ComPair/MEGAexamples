@@ -1,0 +1,119 @@
+# Tracked events file options
+# Date 2015-10-09 12:26:33
+# OriginalFile /nfs/farm/g/glast/u/rcaputo/MEGAlib/MEGAlib/workdir/EffectiveArea_2MeV.inc1.id1.sim
+# GeometryFile /nfs/farm/g/glast/u/rcaputo/MEGAlib/MEGAlib/workdir/../resource/examples/geomega/mpesatellitebaseline/Satellite.geo.setup
+# 
+# Clusterizer options:
+# 
+# Clusterizing by distance
+# Min distance D1: 0.2
+# Min distance D2: 1.1
+# Min distance D3: 0.3
+# Min distance D4: 0
+# Min distance D5: 0.2
+# Min distance D6: 0.3
+# Min distance D7: 0.3
+# Min distance D8: 0.3
+# 
+# 
+# Tracking - ChiSquare options:
+# 
+# Search MIPs:                  1
+# Search Pairs:                 1
+# Search Comptons:              1
+# Max. number of ambiguities:   5
+# Max. layer jump Compton:      2
+# Number of sequences to keep:  1
+# Reject pure ambiguities:      0
+# 
+# 
+# CSR - energy recovery options:
+# 
+# Test statistics:                 Energy recovery
+# QualityFactorMin:               0
+# QualityFactorMax:               1000
+# MaxNInteractions:               5
+# GuaranteeStartD1:               0
+# 
+
+----------------------------------------------------------------------------
+
+Trigger statistics:
+  Not triggered events: ..................................  17076
+  Number of vetoed events: ...............................      0
+  Number of triggered events: ............................  82924
+    TN01: ................................................  82924
+
+----------------------------------------------------------------------------
+
+Event statistics for all triggered (!) events:
+  Number of events .......................................  82924 (100.000%)
+  Number of events, which passed event selections ........  82924 (100.000%)
+  Reconstructable events .................................  72027 ( 86.859%)
+       Photo  ............................................      0 (  0.000%)
+       Compton  ..........................................  67185 ( 93.278%)
+           Decay  ........................................      0 (  0.000%)
+       Pair  .............................................   3973 (  5.516%)
+       Muon  .............................................    865 (  1.201%)
+
+Rejection reasons for not reconstructable events:
+  None ...................................................      8
+  Too many hits in CSR ...................................   1967
+  Electron direction is not valid ........................     34
+  CSR quality factor above threshold .....................      9
+  No good CSR combination ................................   8879
+    Total ................................................  10897
+
+----------------------------------------------------------------------------
+Command-line parser: Use configuration file ../resource/examples/mimrec/EffectiveArea.mimrec.cfg
+Command-line parser: Use file /nfs/farm/g/glast/u/rcaputo/MEGAlib/MEGAlib/workdir/EffectiveArea_2MeV.inc1.id1.tra
+Command-line parser: Use geometry file /nfs/farm/g/glast/u/rcaputo/MEGAlib/MEGAlib/workdir/../resource/examples/geomega/mpesatellitebaseline/Satellite.geo.setup
+Geometry MEGA.BaseLine.36Stack loaded!
+
+Energy spectrum - some additional statistics:
+Number of events:     7732 (inside=7732, outside=0)
+Avg. measured energy: 1988.64 keV
+
+ FCN=15.6294 FROM MIGRAD    STATUS=CONVERGED      81 CALLS          82 TOTAL
+                     EDM=8.63395e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.23796e+02   3.63735e+00   7.97543e-03  -4.18614e-05
+   2  Mean         1.99373e+03   4.39775e-01   1.00564e-03  -2.17784e-04
+   3  Sigma        2.39042e+01   3.75284e-01   1.09023e-05   2.07164e-02
+                               ERR DEF= 0.5
+50% containment (radius): 1.05
+68.26% containment (radius): 1.75
+95.46% containment (radius): 4.15
+99.73% containment (radius): 4.95
+ PARAMETER NUMBER   1 NOT A VARIABLE. IGNORED.
+ THERE ARE NO MINOS ERRORS TO CALCULATE.
+
+Statistics of ARM histogram and fit: 
+
+Analyzed Compton and pair events:        7732
+Compton and pair events in histogram:    6271 (81.1045%)
+
+RMS:                                     1.82181 deg
+
+Total FWHM of fit:                       2.06998 deg
+Maximum of fit (x position):             0.02455 [-0.0110771...0.054519] deg with maximum 202.528 cts
+
+50% containment (radius): 0.6831
+68.26% containment (radius): 1.0143
+95.46% containment (radius): 1.8837
+99.73% containment (radius): 2.0493
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: CanvasARMGamma
+ PARAMETER NUMBER   1 NOT A VARIABLE. IGNORED.
+ THERE ARE NO MINOS ERRORS TO CALCULATE.
+
+Statistics of ARM histogram and fit: 
+
+Analyzed Compton and pair events:        7732
+Compton and pair events in histogram:    4722 (61.0709%)
+
+RMS:                                     0.952903 deg
+
+Total FWHM of fit:                       2.01599 deg
+Maximum of fit (x position):             0.0201321 [-0.00799559...0.0473296] deg with maximum 83.4819 cts
+
